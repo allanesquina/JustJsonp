@@ -1,5 +1,7 @@
 var jjp = (function( doc, win ) {
 
+	'use strict';
+	
 	function createScriptElement( url ) {
 		var el = doc.createElement( 'script' );
 		el.src = url;
